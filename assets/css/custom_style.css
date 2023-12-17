@@ -1,0 +1,132 @@
+.bg-home {
+  width: 100%;
+  height: 600px;
+  background-image: url('../img/bg3b.png'); /* Replace 'your-image-url.jpg' with the actual path to your image */
+  background-size: cover; /* Cover the entire div with the background image */
+  background-position: bottom; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  position: relative; 
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.social {
+  font-size:30px;
+  display:inline-block
+}
+.padding-top {
+  padding-top: 1em;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.small_logo {
+  width: 300px;
+  height: 190px;
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; 
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../img/logo_no_bg_small.png');
+}
+
+.full_logo {
+  width: auto;
+  background-image: url('../img/TerraMendoncaAdvocacia-Social-v1cmpleto-_transparente.png');
+  z-index: 2;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; 
+  background-size: auto 20%;
+  height: 600px;
+  padding-top: 10%;
+  padding-bottom: 25%;
+}
+.colored-background{
+  border-radius: 10px;
+  background-color: gold;
+  padding: 20px;
+}
+
+.circle {
+  border-radius:50px;
+	text-align:center;
+  font-size: 20px;
+  background-color: gold;
+  width:80px;
+	height:80px;
+  padding-top: 25px;
+  margin-bottom: 10px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.solucoes {
+  height: 300px; 
+  width: 300px; 
+  background-color: gold;
+  float: left; 
+  margin-right: 20px;
+  position: static;
+  background-image: url('../img/square-img-01.png');
+
+}
+
+p.text-md{
+  font-size: 20px;
+}
+h1.text-lg{
+  padding-bottom: 30px;
+}
+
+.founder-01{
+  height: 400px; 
+  width: 400px;
+  border-radius:50%;
+  background-color: gold;
+}
+
+.founder-02{
+  height: 400px;
+  width: 400px;
+  border-radius:50%;
+  background-color: gold;
+  float: right;
+}
+
+img.photo-left {
+  float: left;
+}
+
+img.photo-right {
+  float: right;
+}
